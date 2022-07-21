@@ -5,3 +5,4 @@ console.log(a, b, c);
 
 console.log(typeof(c));
 console.log("값은 %s입니다.", c);
+//주석

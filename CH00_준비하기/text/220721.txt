@@ -1,0 +1,80 @@
+MobaXterm
+
+위에 Session탭 클릭 -> New Session -> FTP -> 192.168.0.57 bit -> 비밀번호 : 아이티
+(전통적으로 FTP 기본포트는 21 웹은 80)
+
+사설IP vs 공인IP
+사설 IP
+-> 네트워크 안에서 사용되는 주소.
+인터넷상에서 확인할 수 없고, 내부 네트워킁서만 사용 가능함
+
+공용 IP
+-> 전세계적으로 ICANN이라는 기관이 국가별로 사용할 IP 대역을 관리하고,
+우리나라는 인터넷 징흥원에서 우리나라 내에서 사용할 주소를 관리하고 있음.
+
+리액트 -> 자바스크립트(최신 자바스크립트인 ES6이상) 라이브러리
+
+VSCode로 설치해야 할 익스텐션들
+-> icon으로 검색해서 vscode-icons 다운
+
+js공부할 때 -> mdn사이트 참고
+
+노드js설치하고 base에서 폴더 찾아서  node 파일이름 입력하면 js가 컴파일된 결과가 나옴
+
+VSCode 익스텐션에서 Code Runner 설치하고 Ctrl+Atl+N 누르면(혹은 오른쪽 위에 세모 누르면),
+bash에서 자동으로 node.js가 실행되서 js가 컴파일 된 후 결과를 보여줌
+
+consolas는 한글지 지원이 안됨, 따라서 한글 개발자 폰트는 d2coding을 활용한다
+-> d2coding 최신버전 받고 압축 풀고 all 파일 우클릭하고 '모든 사용자용으로 설치' 클릭
+-> 글꼴 설정에서 바꾸기
+-> vscode에서 Ctrl+, 입력하면 설정창 나옴 -> 폰트 부분에서 맨 앞에 D2Coding 추가
+
+mouse 검색하면 마우스 휠+Ctrl로 글씨크기 조정가능
+
+tabsize 검색해서 Tab의 공백수 2로 바꾸기
+
+autosave 검색해서 켜주기 atferDelay로
+
+extension에서 HTML Snippets, HTML CSS Support, Auto Close Tag,
+Auto Rename Tag, Indent-rainbow, indent-rainbow, Css Peek, Auto Complete,
+React Native Tools, Live server 설치
+
+git bash에서 git config -l 입력하면 설정들 출력됨
+
+git init 후에 git status 치면 빨간색 문장들이 나옴(버전관리에 포함이 안된 파일이 있을 때)
+
+git add .(git add all의 의미)입력해서 stage에 올림
+
+git status 다시 입력하면 staging된 파일들이 출력됨
+
+git commit -m "주석" 입력(주석은 작성자, 내용관련 코멘트 등이 들어간다)
+
+git log를 입력해 커밋 변경사항들을 볼 수 있다
+
+git branch -m 'main' 입력하면 branch가 main으로 바뀜
+
+git remote add origin 레파지토리주소 입력하면 해당 로컬저장소의 git레파지토리가 정해짐
+(origin이라는 주소저장소에 레파지토리 주소를 저장)
+(레파지토리 주소를 ssh를 쓰면 인증단계가 추가된다)
+
+git push -u origin 'main' 입력하면 레파지토리에 push가 된다.
+
+pull 하려면 레포지토리 주소 복사한 후 내려받을 폴더에 우클릭 - git bash here 한 후 git clone 레포지토리주소 입력하면 pull이 진행됨
+
+---------------------------------------------------------------------------------------------
+jdk안에 JVM이 들어있음.
+
+js를 윈도우에서 출력하려면 컴파일러가 필요함
+
+윈도우에서 리눅스처럼 작업할 때 MINGW64가 필요함
+
+char -> 인코딩, 디코딩
+
+character set이라는게 있어서 char형의 정수가 set의 특정 값과 매칭되어서 변환을 한다.
+-> UTF-8, UTF-16, ASC2, Unicode등이 있음
+
+정적타입언어 -> 변수의 메모리크기나 해석방식이 정해져있음 (JAVA 등)
+동적타입언어 -> 변수의 타입이 선언할 떄가 아니라 값을 할당해줄 때 정해짐(JavaScript, Python 등)
+
+
+

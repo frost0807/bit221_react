@@ -1,0 +1,21 @@
+bash에서 git pull
+
+JSON(JavaScript Object Notation)
+{}로 선언가능(리터럴)
+
+is-a 관계, has-a 관계
+
+var
+let : 
+const : java의 final과 같은 역할
+
+함수위에 주석 -> 리턴타입, 파라미터 설명, 함수 기능 설명
+--------------------------------------------------------------------------
+
+기획설계문서, 화면 레이아웃
+
+WBS
+
+아침회의:동기화(pull)
+
+c:out value="${ pagecontext.request.contextpath}";

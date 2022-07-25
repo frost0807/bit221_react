@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>웹 사이트에 React 추가하기</title>
+</head>
+
+<body>
+  <h1>React의 세계에 오신 여러분 환영합니다.</h1>
+
+  <div id="root">
+    <!--여기에...
+    <button onClick></button>
+    -->
+  </div>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script>
+    //버튼 컨포넌트 생성
+    //class 컴포넌트, function컴포넌트 2가지가 있다.function 컴포넌트를 더 많이 씀
+    //MyButton이 태그명 props가 속성
+    function MyButton(props){
+      //isClicked가 getter seIsClicked가 setter라고 보면 된다.
+      const [isClicked, setIsClicked]=React.useState(false);
+      //createElement는 태그를 생성하는 
+      return React.createElement(
+        'button',
+        {onClick:()=>setIsClicked(true)},
+        isClicked ? 'Clicked!':'Click here!'
+      )
+    }
+
+    const domContainer=document.querySelector('#root');
+    
+    ReactDOM.render(React.createElement(MyButton), domContainer);
+  </script>
+</body>
+
+</html>

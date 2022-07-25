@@ -1,0 +1,35 @@
+.comment{
+  margin:8px;
+  padding:8px;
+  display:flex;
+}
+
+.avatar{
+  width:50px;
+  height:50px;
+  border-radius: 25px;
+}
+
+.user-info{
+  display:flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.user-info-name{
+  font-weight: bold;
+  color:#111;
+  line-height:50px;
+}
+
+.comment-txt{
+  padding:15px;
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}

@@ -11,22 +11,22 @@ function Table1(props){
         <th>작성일자</th>
       </tr>
       <tr>
-        <td>porps.line1.id</td>
-        <td>props.line1.title</td>
-        <td>props.line1.writer</td>
-        <td>props.line1.writtenDate</td>
+        <td>{props.line1.id}</td>
+        <td>{props.line1.title}</td>
+        <td>{props.line1.writer}</td>
+        <td>{props.line1.writtenDate}</td>
       </tr>
       <tr>
-        <td>porps.line2.id</td>
-        <td>props.line2.title</td>
-        <td>props.line2.writer</td>
-        <td>props.line2.writtenDate</td>
+        <td>{props.line2.id}</td>
+        <td>{props.line2.title}</td>
+        <td>{props.line2.writer}</td>
+        <td>{props.line2.writtenDate}</td>
       </tr>
       <tr>
-        <td>porps.line3.id</td>
-        <td>props.line3.title</td>
-        <td>props.line3.writer</td>
-        <td>props.line3.writtenDate</td>
+        <td>{props.line3.id}</td>
+        <td>{props.line3.title}</td>
+        <td>{props.line3.writer}</td>
+        <td>{props.line3.writtenDate}</td>
       </tr>
     </table>
   );

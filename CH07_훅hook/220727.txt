@@ -1,0 +1,5 @@
+화면 정중앙에 오게하는 css
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;

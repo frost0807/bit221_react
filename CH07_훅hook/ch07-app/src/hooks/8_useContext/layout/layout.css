@@ -1,0 +1,21 @@
+nav * {
+  margin-left: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #999;
+}
+
+a:hover{
+  text-decoration: none;
+  color:greenyellow;
+}
+
+nav .active{
+  color:#47a1ad;
+}
